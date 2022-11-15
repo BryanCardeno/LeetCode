@@ -22,7 +22,7 @@ Constraints:
     // LeetCode tested code
     let min = 1;
     let max = n;
-    let current = guess(n) == 0 ? n : Math.floor(max / 2);
+    let current = guess(n) == 0 ? n : Math.floor(max / 2); // checks if guessed 
     let result = guess(current);
 
     while (result != 0) {
