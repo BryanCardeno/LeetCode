@@ -63,4 +63,4 @@ const numPicked = Math.floor(Math.random() * numGuessed + 1);
 const returnedNum = guessNumber(numGuessed);
 console.log("PICKED", numPicked, "RETURNED", returnedNum, numPicked === returnedNum);
 
-//adding comment test
+//test logged into new computer
