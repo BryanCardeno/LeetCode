@@ -1,0 +1,10 @@
+﻿  Main.cpp
+Z:\GitHub Repo\LeetCode\Cpp\Easy\Easy\Main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Z:\GitHub Repo\LeetCode\Cpp\Easy\Easy\Main.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Z:\GitHub Repo\LeetCode\Cpp\Easy\Easy\Main.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  sqrt.cpp
+Z:\GitHub Repo\LeetCode\Cpp\Easy\Easy\sqrt.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Z:\GitHub Repo\LeetCode\Cpp\Easy\Easy\sqrt.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Z:\GitHub Repo\LeetCode\Cpp\Easy\Easy\sqrt.cpp(6,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Easy.vcxproj -> Z:\GitHub Repo\LeetCode\Cpp\Easy\x64\Debug\Easy.exe
