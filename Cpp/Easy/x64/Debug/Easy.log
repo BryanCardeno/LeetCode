@@ -1,0 +1,7 @@
+﻿  Main.cpp
+Z:\GitHub Repo\LeetCode\Cpp\Easy\Main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Z:\GitHub Repo\LeetCode\Cpp\Easy\Header.h(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Z:\GitHub Repo\LeetCode\Cpp\Easy\Header.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Z:\GitHub Repo\LeetCode\Cpp\Easy\Header.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Z:\GitHub Repo\LeetCode\Cpp\Easy\Header.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Easy.vcxproj -> Z:\GitHub Repo\LeetCode\Cpp\Easy\x64\Debug\Easy.exe
