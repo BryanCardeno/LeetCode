@@ -1,1 +1,0 @@
-﻿WriteLine(IsPalindrome(1001));
