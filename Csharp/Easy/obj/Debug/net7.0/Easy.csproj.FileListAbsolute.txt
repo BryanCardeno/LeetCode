@@ -1,0 +1,15 @@
+Z:\GitHub Repo\LeetCode\Csharp\Easy\bin\Debug\net7.0\Easy.exe
+Z:\GitHub Repo\LeetCode\Csharp\Easy\bin\Debug\net7.0\Easy.deps.json
+Z:\GitHub Repo\LeetCode\Csharp\Easy\bin\Debug\net7.0\Easy.runtimeconfig.json
+Z:\GitHub Repo\LeetCode\Csharp\Easy\bin\Debug\net7.0\Easy.dll
+Z:\GitHub Repo\LeetCode\Csharp\Easy\bin\Debug\net7.0\Easy.pdb
+Z:\GitHub Repo\LeetCode\Csharp\Easy\obj\Debug\net7.0\Easy.csproj.AssemblyReference.cache
+Z:\GitHub Repo\LeetCode\Csharp\Easy\obj\Debug\net7.0\Easy.GeneratedMSBuildEditorConfig.editorconfig
+Z:\GitHub Repo\LeetCode\Csharp\Easy\obj\Debug\net7.0\Easy.AssemblyInfoInputs.cache
+Z:\GitHub Repo\LeetCode\Csharp\Easy\obj\Debug\net7.0\Easy.AssemblyInfo.cs
+Z:\GitHub Repo\LeetCode\Csharp\Easy\obj\Debug\net7.0\Easy.csproj.CoreCompileInputs.cache
+Z:\GitHub Repo\LeetCode\Csharp\Easy\obj\Debug\net7.0\Easy.dll
+Z:\GitHub Repo\LeetCode\Csharp\Easy\obj\Debug\net7.0\refint\Easy.dll
+Z:\GitHub Repo\LeetCode\Csharp\Easy\obj\Debug\net7.0\Easy.pdb
+Z:\GitHub Repo\LeetCode\Csharp\Easy\obj\Debug\net7.0\Easy.genruntimeconfig.cache
+Z:\GitHub Repo\LeetCode\Csharp\Easy\obj\Debug\net7.0\ref\Easy.dll
