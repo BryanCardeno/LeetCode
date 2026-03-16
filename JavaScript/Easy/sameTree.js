@@ -12,14 +12,6 @@
  * @return {boolean}
  */
 
-class TreeNode {
-  constructor(val, left, right) {
-    this.val = val === undefined ? 0 : val;
-    this.left = left === undefined ? null : left;
-    this.right = right === undefined ? null : right;
-  }
-}
-
 // LeetCode accepted. Solved using recursion.
 var isSameTree = function (p, q) {
   if (p == null && q == null) return true;
@@ -31,6 +23,14 @@ var isSameTree = function (p, q) {
 
   return isSameTree(p.right, q.right);
 };
+
+class TreeNode {
+  constructor(val, left, right) {
+    this.val = val === undefined ? 0 : val;
+    this.left = left === undefined ? null : left;
+    this.right = right === undefined ? null : right;
+  }
+}
 
 // supporting variables
 const pParent = new TreeNode(1, null, null);
