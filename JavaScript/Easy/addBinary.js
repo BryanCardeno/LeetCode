@@ -26,40 +26,35 @@ Each string does not contain leading zeros except for the zero itself.
  */
 
 var addBinary = function (a, b) {
-    let length = 0;
-    if (parseInt(a, 2) > parseInt(b, 2)) {
-        b = b.padStart(a.length, "0");
-        length = a.length;
+  let length = 0;
+  if (parseInt(a, 2) > parseInt(b, 2)) {
+    b = b.padStart(a.length, "0");
+    length = a.length;
+  } else {
+    a = a.padStart(b.length, "0");
+    length = b.length;
+  }
+
+  let newString = "";
+  let remainder = 0;
+  let divisible = 0;
+
+  for (let i = length - 1, j = 0; i >= 0; i--) {
+    j = parseInt(a[i]) + parseInt(b[i]) + divisible;
+    remainder = j % 2;
+    divisible = Math.floor(j / 2);
+
+    newString = remainder + newString;
+
+    if (i == 0 && divisible == 1) {
+      newString = divisible + newString;
     }
-    else {
-        a = a.padStart(b.length, "0");
-        length = b.length
-    }
-
-    let newString = "";
-    let remainder = 0;
-    let divisible = 0;
-
-    for (let i = length - 1, j = 0; i >= 0; i--) {
-        j = parseInt(a[i]) + parseInt(b[i]) + divisible;
-        remainder = j % 2;
-        divisible = Math.floor(j / 2);
-
-        newString = remainder + newString;
-
-        if (i == 0 && divisible == 1) {
-            newString = divisible + newString;
-        }
-
-    }
-    return newString;
-}
+  }
+  return newString;
+};
 
 const strA = "111";
 const strB = "1010";
 
-
+console.log("test");
 console.assert(addBinary(strA, strB) == "10001", "test 1");
-
-
-

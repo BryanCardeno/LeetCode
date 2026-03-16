@@ -30,6 +30,37 @@ Constraints:
  * @return {number}
  */
 
-var climbStairs = function (n) {
+// TODO: STILL NEED TO SOLVE
 
-}
+var climbStairs = function (n) {
+  const steps = [0, 1]; // 1 and 2 steps
+  const numSteps = [1, 2]; // 1 step and 2 different step
+
+  const helperFunc = (step) => {
+    let count = 0;
+    // step = 5
+
+    if (step == 0)
+      // skip
+      return 0;
+
+    if (step == 1)
+      // skip
+      return 1;
+
+    if (step == 2)
+      // skip
+      return 2;
+
+    if (!steps[numSteps - 1]) count = helperFunc(step - 1);
+    numSteps.push(Number(count + numSteps[step - 1]));
+
+    return numSteps[step - 1];
+  };
+
+  helperFunc(n);
+
+  console.log(numSteps[n - 1]);
+};
+
+console.log(climbStairs(4));
