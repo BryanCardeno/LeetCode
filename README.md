@@ -1,3 +1,3 @@
 # LeetCode
 
-Solved LeetCode problems with solutions
+Solved LeetCode and HackerRank problems.
